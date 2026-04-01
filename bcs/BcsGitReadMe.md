@@ -9,3 +9,25 @@
 
 Pfad zu Git prüfen:  
 Settings → Version Control → Git  
+
+
+# Github zu IntelliJ hinzufügen:
+
+File -> Settings -> Version Control -> GitHub:
+Dann Account hinzufügen, fall er nicht schon eingetragen ist.
+Login via Github.
+Authorise with Jetbrains
+
+Connect to Github.
+
+# In Version Control hinzufügen
+
+* Falls noch kein Github hinzugefügt wurde:
+  * Im Menu VCS -> Share Projekt on GitHub
+  *  ProjektName wird als Git Projekt übernommen
+Anschließend erscheint master als Branch in der Hauptleiste
+
+* Fall bereits ein GitHub Repository existiert:
+1. Auf GitHub: Copy die GitHub Url
+2. In Intellij: New Projekt
+2. 
