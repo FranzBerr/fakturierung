@@ -11,6 +11,7 @@ import java.util.List;
 //OpenAPI JSON/YAML:  http://localhost:8080/v3/api-docs.yaml
 
 //http://localhost:8080/api/customers
+
 @RestController
 @RequestMapping("/api/customers")
 public class CustomerController {
@@ -27,7 +28,7 @@ public class CustomerController {
     }
 
     @GetMapping("/{id}")
-    public CustomerDto getById(@PathVariable Long id) {
+    public CustomerDto getById(@PathVariable("id") Long id) {
         return service.findById(id);
     }
 
