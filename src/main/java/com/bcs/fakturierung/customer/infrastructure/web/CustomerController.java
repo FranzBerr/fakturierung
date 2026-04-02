@@ -28,7 +28,7 @@ public class CustomerController {
     }
 
     @GetMapping("/{id}")
-    public CustomerDto getById(@PathVariable("id") Long id) {
+    public CustomerDto getById(@PathVariable Long id) {
         return service.findById(id);
     }
 

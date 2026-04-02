@@ -115,6 +115,9 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <c>
+                        <arg>-parameters</arg>
+                    </c>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.mapstruct</groupId>
